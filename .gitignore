@@ -1,0 +1,7 @@
+.idea
+*.exe
+cookies.har
+*.log
+config.txt
+账号信息.txt
+续费链接.html

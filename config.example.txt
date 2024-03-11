@@ -1,0 +1,9 @@
+# 每次打开新页面等待的时间，单位是毫秒，默认是1000毫秒，即1秒钟，要求是整数
+interval: 1000
+
+# 飞书机器人，''表示留空，即不触发飞书机器人通知
+# 格式如 https://open.feishu.cn/open-apis/bot/v2/hook/xxxxxxxxxxxxxxxxx
+fsWebhook: ''
+# 签名校验，''表示留空
+fsSecret: ''
+
