@@ -4,11 +4,13 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"time"
 )
 
 var (
-	hostname string
-	dirPath  string
+	hostname   string
+	dirPath    string
+	sellIDList []string
 )
 
 func getDirPath() {
@@ -25,10 +27,17 @@ func getDirPath() {
 
 func main() {
 	readConfig()
-	excelMap()
+	lowMap()
+	groupMap()
 	hostname, _ = os.Hostname()
 	getDirPath()
 	setClient()
 	checkMarket()
-	run()
+
+	for {
+		lowRun()
+		time.Sleep(time.Duration(interval) * time.Millisecond)
+		groupRun()
+		time.Sleep(time.Duration(interval) * time.Millisecond)
+	}
 }

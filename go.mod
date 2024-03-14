@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/CatchZeng/feishu v1.3.2
-	github.com/KarlTango/xs v1.0.7
+	github.com/bingoohuang/xlsx v1.1.0
 	github.com/duke-git/lancet/v2 v2.2.9
 	github.com/hashicorp/go-version v1.6.0
 	github.com/imroc/req/v3 v3.42.3
@@ -22,6 +22,10 @@ require (
 
 require (
 	github.com/andybalholm/brotli v1.0.6 // indirect
+	github.com/araddon/dateparse v0.0.0-20190622164848-0fb0a474d195 // indirect
+	github.com/averagesecurityguy/random v0.0.0-20180326012618-37cce341d2af // indirect
+	github.com/bingoohuang/gor v0.0.0-20200321095356-94cf6290c6ea // indirect
+	github.com/bingoohuang/strcase v0.0.0-20200312105414-ac2c85cfc85d // indirect
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-resty/resty/v2 v2.7.0 // indirect
@@ -32,6 +36,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/klauspost/compress v1.17.4 // indirect
+	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
@@ -44,13 +49,15 @@ require (
 	github.com/refraction-networking/utls v1.6.0 // indirect
 	github.com/sagikazarmark/locafero v0.4.0 // indirect
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
+	github.com/sirupsen/logrus v1.5.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
-	github.com/tealeg/xlsx v1.0.5 // indirect
+	github.com/thoas/go-funk v0.5.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
+	github.com/unidoc/unioffice v1.3.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/mock v0.4.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
