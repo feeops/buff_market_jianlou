@@ -37,7 +37,7 @@ func main() {
 	for {
 		lowRun()
 		time.Sleep(time.Duration(interval) * time.Millisecond)
-		groupRun()
-		time.Sleep(time.Duration(interval) * time.Millisecond)
+		// groupRun()
+		// time.Sleep(time.Duration(interval) * time.Millisecond)
 	}
 }
